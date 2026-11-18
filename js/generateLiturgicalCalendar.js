@@ -553,7 +553,7 @@ function buildLiturgicalYearForEasterYear(easterYear) {
     null,
     addDaysYMD(holyThursday, -3),
     "Thứ Hai Tuần Thánh",
-    prorityFeasts.feast
+    prorityFeasts.feastOverride
   );
   pushItem(
     "Thứ Ba Tuần Thánh",
@@ -705,7 +705,7 @@ function buildLiturgicalYearForEasterYear(easterYear) {
     "Chúa Kitô Vua Vũ Trụ",
     34,
     christTheKingDate,
-    "Kết thúc Năm Phụng Vụ",
+    "Lễ Chúa Kitô Vua Vũ Trụ",
     prorityFeasts.solemnityOverride
   );
   pushItem(

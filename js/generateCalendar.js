@@ -187,6 +187,9 @@ function generateCalendars() {
             if (feastInfo.name.toString().includes("Tro")) {
               cell.classList.add("ashWednesday");
             }
+            if (feastInfo.name.toString().includes("Tuần Thánh")) {
+              cell.classList.add("ash");
+            }
             break;
 
           case prorityFeasts.feast:

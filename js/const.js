@@ -16,7 +16,7 @@ const daysVie = [
   "Thứ Sáu",
   "Thứ Bảy",
 ];
-const yearOfCalendar = 2026; // Năm của lịch muốn tạo
+const yearOfCalendar = 2027; // Năm của lịch muốn tạo
 const prorityFeasts = {
   solemnityOverride: 4, // lễ trọng ghi đè chúa nhật
   solemnity: 3, // le trọng
